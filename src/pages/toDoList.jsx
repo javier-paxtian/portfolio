@@ -41,7 +41,7 @@ const ToDoList = () => {
     })
     
     return <>
-        <main className="bg-pink-100 h-full min-h-screen w-full p-[5%] flex flex-col gap-y-9">
+        <main className="bg-pink-100 h-full min-h-screen w-full p-[5%] pt-32 flex flex-col gap-y-9">
             <button type="button" class="text-gray-900  w-fit
             bg-white border border-gray-300 focus:outline-none 
             hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 

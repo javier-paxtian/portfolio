@@ -4,15 +4,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Shedules from './pages/shedules';
 import ToDoList from './pages/toDoList';
 import Cripto from './pages/cripto';
+import Home from './pages/home';
+import Navbar from './pages/components/navbar.component';
 
 function App() {
-
-  const Home = () => {
-    return <>
-      <h1>Este es el home</h1>
-    </>
-  }
-
   const Calculadora = () => {
     return <>
       <h1>Este es una calculadora</h1>
@@ -22,6 +17,7 @@ function App() {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calculadora" element={<Calculadora />} />

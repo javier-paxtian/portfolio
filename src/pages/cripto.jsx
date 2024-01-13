@@ -45,7 +45,7 @@ const Cripto = () => {
         console.log(result);
     }, [])
     return <>
-        <main className="bg-gray-100 h-full min-h-screen w-full m-auto pb-8 ">
+        <main className="bg-gray-100 h-full min-h-screen w-full m-auto pb-8 pt-24 ">
             <div className="max-w-[640px] m-auto">
                 <nav className="bg-purple-700 text-white text-center py-4 text-white font-bold text-4xl tracking-widest ">CRIPTO</nav>
                 <img className="w-full   h-52 object-cover object-center" src='https://images.unsplash.com/photo-1621504450181-5d356f61d307?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1vbmVkYXMlMjBkZSUyMG9yb3xlbnwwfHwwfHx8MA%3D%3D' alt="" />
