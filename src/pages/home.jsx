@@ -5,9 +5,9 @@ const Home = () => {
     const frontEndSkills = [
         { name: "HTML", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" },
         { name: "JS", url: "https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" },
-        { name: "CSS", url: "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png" },
+        { name: "CSS", url: "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" },
         { name: "React Js", url: "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png" },
-        { name: "Vue js", url: "https://assets.stickpng.com/images/58482acecef1014c0b5e4a1e.png" },
+        { name: "Vue js", url: "https://images-ext-2.discordapp.net/external/irz-58ZEwzl1c6DpZt1_ypKHGkoyVfswNIscZIZvTjk/https/iconape.com/wp-content/files/pr/112460/png/vue-js-1.png?format=webp&quality=lossless&width=662&height=662" },
         { name: "Tailwind", url: "https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu" },
         { name: "Bootstrap", url: "https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png" }
     ];
@@ -35,7 +35,7 @@ const Home = () => {
                 <div>
                     <h3 className="text-xl font-semibold text-white">Frontend</h3>
                     <div className="flex flex-wrap gap-[20px] pt-4 justify-evenly">
-                        {frontEndSkills.map((item, index) => <Card>
+                        {frontEndSkills.map((item, index) => <Card bgWhite={true}>
                             <div className="text-center">
                                 <img className="w-32 h-32 object-cover mb-3" src={item.url} alt="" />
                                 <h3 className="text-sm font-bold">{item.name}</h3>
@@ -46,7 +46,7 @@ const Home = () => {
                 <div>
                     <h3 className="text-xl font-semibold text-white">Backend</h3>
                     <div className="flex flex-wrap gap-[20px] pt-4 justify-evenly">
-                        {backEndSkills.map((item, index) => <Card>
+                        {backEndSkills.map((item, index) => <Card bgWhite={true}>
                             <div className="text-center">
                                 <img className="w-32 h-32 object-cover mb-3" src={item.url} alt="" />
                                 <h3 className="text-sm font-bold">{item.name}</h3>
@@ -59,9 +59,9 @@ const Home = () => {
                 <h2 className="text-3xl font-bold text-slate-950">Projects</h2>
                 <div>
                     <div className="flex flex-wrap gap-[20px] pt-4 justify-evenly">
-                        {projectsSkills.map((item, index) => <Card pointer={true} dark={true}>
+                        {projectsSkills.map((item, index) => <Card pointer={true} dark={true} bgBlack={true}>
                             <a href={item.link} className="text-center ">
-                                <img className="w-32 h-32 object-cover mb-3" src={item.url} alt="" />
+                                <img className="w-32 h-32 mb-3" src={item.url} alt="" />
                                 <h3 className="text-sm font-bold">{item.name}</h3>
                             </a>
                         </Card>)}

@@ -11,6 +11,7 @@ const Navbar = () => {
                 <a className="cursor-pointer hover:text-indigo-400 font-normal underline" onClick={() => navigate('/shedules')}>Shedules</a>
                 <a className="cursor-pointer hover:text-indigo-400 font-normal underline" onClick={() => navigate('/to-do-list')}>To Do List</a>
                 <a className="cursor-pointer hover:text-indigo-400 font-normal underline" onClick={() => navigate('/cripto')}>Cripto</a>
+                <a className="cursor-pointer hover:text-indigo-400 font-normal underline" onClick={() => navigate('/calculadora')}>calculadora</a>
             </div>
         </nav>
     </>
